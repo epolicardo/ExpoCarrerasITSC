@@ -1,0 +1,12 @@
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\bin\Debug\CargaDatos.exe.config
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\bin\Debug\CargaDatos.exe
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\bin\Debug\CargaDatos.pdb
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.csprojAssemblyReference.cache
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.Form1.resources
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.Properties.Resources.resources
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.csproj.GenerateResource.cache
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.csproj.CoreCompileInputs.cache
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.exe
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.pdb
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.Inicial.resources
+C:\Users\Mauricio Gaggero\source\repos\CargaDatos\CargaDatos\obj\Debug\CargaDatos.DB.resources
