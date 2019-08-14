@@ -1,9 +1,14 @@
-body{
+form{
     text-align: center;
 }
 .btn {
-    width: 300px;
+    width: 200px;
 }
 .list{
     width: 300px
+}
+h1{
+    text-align: center;
+    background-color: darkslategrey;
+    color: white; 
 }
