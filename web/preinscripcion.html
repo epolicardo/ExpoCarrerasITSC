@@ -1,54 +1,62 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
 	<meta charset="UTF-8">
 	<title>Preinscripción</title>
-	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">    <link href="styles/stylesPreins.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+		integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="styles/stylesPreins.css" rel="stylesheet">
 
 </head>
+
 <body>
-		<h1>Preinscripción</h1><br>
-		<form action="">
-			<label>Nombre y Apellido: <br>
-				<input type="text" required placeholder="Nombre Completo" style="width: 300px;"> 
-			</label><br>
-			<label>Edad<br>
-				<input type="number" name="edad" required min="18" max="90"></label>
-			<br>
-			<label>Email: <br>
-				<input type="email" placeholder="email@mail.com" style="width: 300px;">
-			</label>
-			<br>
-			<label> Carrera que te interesa (opcional) <br>
-				<select name="" class="list">
-					<option value=""> </option>
-					<option value="">Desarrollo de Software</option>
-					<option value="">Enfermeria</option>
-					<option value="">Gestion Ambiental</option>
-					<option value="">Gestion y Admin. de las Organizaciones</option>
-					<option value="">Gestion y Mantenim. Industrial</option>
-					<option value="">Optica y Contactologia</option>
-					<option value="">Protesis Dental</option>
-					<option value="">Seguridad e Higiene en el Trabajo</option>
-				</select>
-			</label>
-            <br>
-            <label>¿Con quién venís?<br>
-                <select  name="" class="list">
-                    <option value=""> </option>
-                    <option value="">Solo</option>
-                    <option value="">Con un amigo</option>
-                    <option value="">Con el colegio</option>
-                    <option value="">Con un familiar</option>
-                </select>
-            </label>
-            <br>
-            <br>
-            <label>¿Te interesaria recibir información sobre la Institución por correo electrónico?<input type="checkbox"></label>
-            <br>
-            <br>
-            <button type="button" class="btn btn-success">Enviar</button>
-            
-		</form>
+	<h1>Preinscripción</h1>
+
+	<form action="">
+		<label>Nombre y Apellido: <br>
+			<input type="text" required placeholder="Nombre Completo" style="width: 300px;">
+		</label><br>
+		<label>Edad<br>
+			<input type="number" name="edad" required min="18" max="90"></label>
+		<br>
+		<label>Email: <br>
+			<input type="email" required placeholder="nombre@mail.com" style="width: 300px;">
+		</label>
+		<br>
+		<label> Carrera que te interesa (opcional) <br>
+			<select name="" class="list">
+				<option value=""> </option>
+				<option value="">Desarrollo de Software</option>
+				<option value="">Enfermeria</option>
+				<option value="">Gestion Ambiental</option>
+				<option value="">Gestion y Admin. de las Organizaciones</option>
+				<option value="">Gestion y Mantenim. Industrial</option>
+				<option value="">Optica y Contactologia</option>
+				<option value="">Protesis Dental</option>
+				<option value="">Seguridad e Higiene en el Trabajo</option>
+			</select>
+		</label>
+		<br>
+		<label>¿Con quién venís?<br>
+			<select name="" class="list">
+				<option value=""> </option>
+				<option value="">Solo</option>
+				<option value="">Con un amigo</option>
+				<option value="">Con el colegio</option>
+				<option value="">Con un familiar</option>
+			</select>
+		</label>
+		<br>
+		<br>
+		<label> Deseo rebibir información por correo sobre el Instituto
+			<input type="checkbox">
+		</label>
+		<br>
+		<br>
+		<a href="index.html" class="btn btn-success">Volver a Inicio</a>
+		<button type="submit" class="btn btn-success">Enviar</button>
+	</form>
 </body>
+
 </html>
