@@ -1,16 +1,26 @@
 <?php
-$nombre= $_GET['nombre'];
-$edad= $_GET['edad'];
-$email= $_GET['email'];
-$carrera= $_GET['carrera'];
-echo "<h2>Información recibida </h2>";
-echo "el nombre recibido es:" . $nombre . "<br/>";
+$nombre= $_REQUEST['nombre'];
+$edad= $_REQUEST['edad'];
+$email= $_REQUEST['email'];
+$carrera= $_REQUEST['carrera'];
+$destino = $_REQUEST['recipient'];
+$subject = $_REQUEST['subject'];
+$redirect = $_REQUEST['redirect'];
 
-echo "el edad recibido es:" . $edad . "<br/>";
 
-echo "el email recibido es:" . $email . "<br/>";
 
-echo " la carrera de interes es:" . $carrera . "<br/>";
+if ($nombre != '') {
+$header = "From: $nombre <$email>\r\n";
+}
+else {
+$header = "From: $email\r\n";
+}
+$header .= "Return-Path: $email\r\n";
+$mensaje = "Nombre: $nombre\r\n";
+$mensaje .="Email: $email\r\n";
+$mensaje .= "Carrera de interes: $carrera\r\n";
+$mensaje .= "Edad: $edad";
 
-echo "gracias";
+mail($destino, $subject, $mensaje, $header);
+header('Location: ' . $redirect);
 ?>

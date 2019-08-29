@@ -95,7 +95,10 @@
                     teléfono al: 4897942 o por correo electrónico: <br>
                     <a href="mailto:itscordoba2015@gmail.com">itscordoba2015@gmail.com</a>
                 </p>
-                <form class=" text-center text-light" action="Contacto.php" method="GET">
+                <form class=" text-center text-light" action="Contacto.php" method="POST">
+                        <input type="hidden" name="recipient" value="emilianopolicardo@gmail.com">
+                        <input type="hidden" name="subject" value="Datos del Formulario">
+                        <input type="hidden" name="redirect" value="/index.html">
                     <label>Nombre: <br>
                         <input type="text" required placeholder="Nombre" name="nombre" style="width: 300px;">
                     </label><br>
@@ -108,15 +111,15 @@
                     <br>
                     <label> Carrera que te interesa (opcional) <br>
                         <select name="carrera" class="list">
-                            <option value=""> </option>
-                            <option value="">Desarrollo de Software</option>
-                            <option value="">Enfermería</option>
-                            <option value="">Gestión Ambiental</option>
-                            <option value="">Gestión y Admin. de las Organizaciones</option>
-                            <option value="">Gestión y Mantenim. Industrial</option>
-                            <option value="">Optica y Contactología</option>
-                            <option value="">Prótesis Dental</option>
-                            <option value="">Seguridad e Higiene en el Trabajo</option>
+                            <option value="null"> </option>
+                            <option value="ds">Desarrollo de Software</option>
+                            <option value="enf">Enfermería</option>
+                            <option value="ga">Gestión Ambiental</option>
+                            <option value="go">Gestión y Admin. de las Organizaciones</option>
+                            <option value="gi">Gestión y Mantenim. Industrial</option>
+                            <option value="oc">Optica y Contactología</option>
+                            <option value="pd">Prótesis Dental</option>
+                            <option value="sh">Seguridad e Higiene en el Trabajo</option>
                         </select>
                     </label>
                     <br>
@@ -139,7 +142,6 @@
 
                     <button type="submit" class="btn btn-success">Enviar</button>
                 </form>
-
             </div>
         </div>
 
